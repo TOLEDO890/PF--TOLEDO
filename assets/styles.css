@@ -1,0 +1,9 @@
+@import url(/index.html);
+body {
+  background-color: red;
+}
+
+nav {
+  border-radius: 5px;
+  border: solid black;
+}/*# sourceMappingURL=styles.css.map */
