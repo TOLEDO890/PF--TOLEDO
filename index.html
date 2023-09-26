@@ -7,25 +7,23 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/styles.css">
-
-
 </head>
 
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<body class="p-3 m-3  m-3 bg-body-tertiary ">
     <header>
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid nav-div ">
                 <a class="navbar-brand" href="#">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                            <a class="nav-link active" aria-current="page" href="assets/pages/about-me.html">About
+                                Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./assets/pages/projects.html">Projects</a>
@@ -34,61 +32,95 @@
                             <a class="nav-link dropdown-toggle"
                                 href="./assets/documents/curriculum amador ivan toledo.pdf" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" target="_blank">
-                                dowloand cv
+                                Dowloand Cv
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul>
+                                <hr class="dropdown-divider">
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./assets/pages/studies.html" aria-disabled="false">studies</a>
+                            <a class="nav-link" href="./assets/pages/studies.html">Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/pages/contac-me.html">Contact</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
 
-
     </header>
     <section>
-        <div class="title-2">
-
-            <pre><strong>
-  HI...
-  I'M AMADOR TOLEDO,
-  WEB DEVELOPER
-            </strong>
- 
-            </pre>
+        <div class="p-3 ">
+            <p class="fs-1 text-center text-uppercase fw-bold text-white">
+                HI...
+                I'M AMADOR TOLEDO,
+                WEB DEVELOPER
+            </p>
         </div>
     </section>
     <main>
+        <section>
+            <div>
+                <p class="fs-2 text-center bg-success ">Tools</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/images/html.png" alt="html">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/css.png" alt="css">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/sass.png" alt="sass">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/boostrap.png" alt="boostrap">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/node-js.png" alt="node-js">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p class="fs-2 text-center bg-info">social networks</p>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-4">
+                        <a target="_blank" href="https://github.com/TOLEDO890"><img src="./assets/images/github-log.png"
+                                alt="github"></a>
+                    </div>
+                    <div class="col-4">
+                        <a target="_blank" href="https://www.linkedin.com/in/amador-toledo-0059b7288/"><img
+                                src="./assets/images/linke.png" alt="linkedin"></a>
+                    </div>
+                    <div class="col-4">
+                        <a target="_blank" href="https://www.instagram.com/amador_toledo/?hl=en"><img
+                                src="./assets/images/instagram.png" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <aside>
     </aside>
-    <footer>
-        <div class="footer">
-
-            <ol>
-                <li>
-                    <a href="https://www.linkedin.com/in/amador-toledo-0059b7288/"><img src="./images/linkedin.png"
-                            alt="linkedin"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/TOLEDO890"><img src="./images/social.png" alt="github"></a>
-                </li>
-            </ol>
-
-
-        </div>
-
-    </footer>
+        <div class="container">
+            <footer class="">
+              <ul class="nav justify-content-center border-bottom ">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white ">Home</a></li>
+                <li class="nav-item"><a href="./assets/pages/studies.html" class="nav-link px-5 text-white fs-2">studies</a></li>
+                <li class="nav-item"><a href="./assets/pages/about-me.html" class="nav-link px-5 text-white fs-2 ">about-me</a></li>
+                <li class="nav-item"><a href="./assets/pages/contac-me.html" class="nav-link px-5 text-white fs-2">contac-me</a></li>
+                <li class="nav-item"><a href="./assets/pages/projects.html" class="nav-link px-5 text-white fs-2">projects</a></li>
+              </ul>
+              <p class="text-center text-white fs-1">© 2022 Company, Inc</p>
+            </footer>
+          </div>
 </body>
 
 </html>

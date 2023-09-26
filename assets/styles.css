@@ -1,9 +1,17 @@
 @import url(/index.html);
+@import url(./pages/about-me.html);
+@import url(./pages/contac-me.html);
+@import url(./pages/studies.html);
+@import url(./pages/projects.html);
 body {
-  background-color: red;
+  background-image: url(./images/programacion-bg.png);
 }
 
 nav {
-  border-radius: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.tools {
   border: solid black;
 }/*# sourceMappingURL=styles.css.map */
