@@ -10,7 +10,7 @@
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
 body {
-  background-image: url(assets/images/programacion-bg.png);
+  background-image: url(./assets/images/programacion-bg.png);
 }
 
 nav {
