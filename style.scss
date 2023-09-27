@@ -3,14 +3,22 @@
 @import url(./pages/contac-me.html);
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
-body{
-    background-image: url(./images/programacion-bg.png);
+
+body {
+    background-image: url(/assets/images/programacion-bg.png);
 }
+
 nav {
     border-radius: 10px;
-   
-    background-color:#ffffff;
+
+    background-color: #ffffff;
 }
+
 .tools {
     border: solid black;
+}
+
+.texto-presentacion {
+    border-radius: 5px;
+    border: solid white;
 }

@@ -4,7 +4,7 @@
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
 body {
-  background-image: url(./images/programacion-bg.png);
+  background-image: url(/assets/images/programacion-bg.png);
 }
 
 nav {
@@ -14,4 +14,9 @@ nav {
 
 .tools {
   border: solid black;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.texto-presentacion {
+  border-radius: 5px;
+  border: solid white;
+}/*# sourceMappingURL=style.css.map */
