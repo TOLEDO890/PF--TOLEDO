@@ -1,3 +1,10 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import url(/index.html);
 @import url(./pages/about-me.html);
 @import url(./pages/contac-me.html);
@@ -10,7 +17,6 @@ body {
 
 nav {
     border-radius: 10px;
-
     background-color: #ffffff;
 }
 
@@ -22,3 +28,5 @@ nav {
     border-radius: 5px;
     border: solid white;
 }
+
+/*# sourceMappingURL=style.css.map */
