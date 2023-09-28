@@ -4,13 +4,9 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url(/index.html);
-@import url(./pages/about-me.html);
-@import url(./pages/contac-me.html);
-@import url(./pages/studies.html);
-@import url(./pages/projects.html);
+
 body {
-  background-image: url(./assets/images/programacion-bg.png);
+  background-image: url(../images/programacion-bg.png);
 }
 
 nav {
