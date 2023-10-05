@@ -5,9 +5,25 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-body {
-  background-image: url(../images/programacion-bg.png);
+ body {
+	background: linear-gradient(-45deg, black, black, rgb(61, 61, 61), gray, black, black);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 nav {
   border-radius: 10px;
