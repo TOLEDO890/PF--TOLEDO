@@ -10,13 +10,14 @@ $prefix: "mo-";
 @import url(./pages/contac-me.html);
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
-
-
+@import "./scss/borders.scss";
+@import "./scss/colores.scss";
 body {
 	background: linear-gradient(-45deg, black, black, gray, gray, black, black);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
+	
 }
 
 @keyframes gradient {
@@ -44,6 +45,13 @@ nav {
 .texto-presentacion {
     border-radius: 5px;
     border: solid white;
+}
+.proyecto {
+	background-image: url(/assets/images/bg-card.png);
+}
+ol {
+	@include bordes-articulos;
+	@include background-articulos;
 }
 
 /*# sourceMappingURL=style.css.map */

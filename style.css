@@ -4,40 +4,11 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
- body {
-	background: linear-gradient(-45deg, black, black, rgb(61, 61, 61), gray, black, black);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-nav {
-  border-radius: 10px;
-  background-color: #ffffff;
-}
-
-.tools {
-  border: solid black;
-}
-
-.texto-presentacion {
-  border-radius: 5px;
-  border: solid white;
-}
+@import url(/index.html);
+@import url(./pages/about-me.html);
+@import url(./pages/contac-me.html);
+@import url(./pages/studies.html);
+@import url(./pages/projects.html);
 :root,
 [data-bs-theme=light] {
   --mo-blue: #0d6efd;
@@ -12044,6 +12015,46 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background: linear-gradient(-45deg, black, black, gray, gray, black, black);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
+}
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+nav {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.tools {
+  border: solid black;
+}
+
+.texto-presentacion {
+  border-radius: 5px;
+  border: solid white;
+}
+
+.proyecto {
+  background-image: url(/assets/images/bg-card.png);
+}
+
+ol {
+  border-radius: 5px;
+  border: solid;
+  background-color: #0DCAF0;
+}
 
 /*# sourceMappingURL=style.css.map */
