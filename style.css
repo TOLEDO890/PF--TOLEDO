@@ -12048,13 +12048,48 @@ nav {
 }
 
 .proyecto {
-  background-image: url(/assets/images/bg-card.png);
+  border: solid aqua;
+  border-radius: 5px;
 }
 
-ol {
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.curriculum {
+  border: solid white;
   border-radius: 5px;
-  border: solid;
-  background-color: #0DCAF0;
+  background-image: url(./assets/images/background-curriculum.jpg);
+}
+
+li {
+  color: white;
+}
+
+h4, .h4 {
+  text-align: center;
+  color: white;
+}
+
+h3, .h3 {
+  text-align: center;
+  color: white;
+}
+
+h2, .h2 {
+  text-align: center;
+  color: white;
+}
+
+h1, .h1 {
+  text-align: center;
+  color: white;
+}
+
+.foto-amador {
+  border-radius: 10px;
+  border: solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

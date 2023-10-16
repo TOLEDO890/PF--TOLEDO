@@ -10,8 +10,14 @@ $prefix: "mo-";
 @import url(./pages/contac-me.html);
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
-@import "./scss/borders.scss";
-@import "./scss/colores.scss";
+
+@mixin text-center{
+	text-align: center;
+}
+@mixin text-withe {
+	color: white;
+}
+
 body {
 	background: linear-gradient(-45deg, black, black, gray, gray, black, black);
 	background-size: 400% 400%;
@@ -46,12 +52,41 @@ nav {
     border-radius: 5px;
     border: solid white;
 }
-.proyecto {
-	background-image: url(/assets/images/bg-card.png);
-}
-ol {
-	@include bordes-articulos;
-	@include background-articulos;
-}
 
+.proyecto {
+	border: solid aqua;
+	border-radius: 5px;
+}
+ul {
+	list-style-type:none;
+	@include text-center;	
+}
+.curriculum {
+	border: solid white ;
+	border-radius: 5px ;
+	background-image: url(./assets/images/background-curriculum.jpg);
+}
+li {
+	@include text-withe;
+}
+h4 {
+	@include text-center;
+	@include text-withe;
+}
+h3 {
+	@include text-center;
+	@include text-withe;
+}
+h2 {
+	@include text-center;
+	@include text-withe;
+}
+h1 {
+	@include text-center;
+	@include text-withe;
+}
+.foto-amador {
+	border-radius: 10px;
+	border: solid black;
+}
 /*# sourceMappingURL=style.css.map */
