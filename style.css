@@ -51,13 +51,23 @@ ul {
   list-style-type: none;
   text-align: center;
 }
+ul li {
+  color: #FFFFFF;
+}
+
+.inicio a:hover {
+  font-size: 25px;
+}
+.inicio a:hover img:hover {
+  width: 150px;
+}
+
+a:hover {
+  font-size: 25px;
+}
 
 .curriculum {
   background-image: url(./assets/images/background-curriculum.jpg);
-}
-
-li {
-  color: #FFFFFF;
 }
 
 h4 {
@@ -76,6 +86,11 @@ h2 {
 }
 
 h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+p {
   text-align: center;
   color: #FFFFFF;
 }

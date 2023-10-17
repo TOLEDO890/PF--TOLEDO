@@ -77,15 +77,29 @@ nav {
 ul {
 	list-style-type: none;
 	@include text-center;
+	li {
+		@include text-withe;
+		
+	} 
+	
+}
+.inicio {
+	a:hover {
+		font-size: 25px;
+		img:hover {
+			width: 150px;	
+		}
+	}
+}
+
+a:hover {
+	font-size: 25px;
 }
 
 .curriculum {
 	background-image: url(./assets/images/background-curriculum.jpg);
 }
 
-li {
-	@include text-withe;
-}
 
 h4 {
 	@include text-center;
@@ -106,6 +120,9 @@ h1 {
 	@include text-center;
 	@include text-withe;
 }
-
+p {
+	@include text-center;
+	@include text-withe;
+}
 
 /*# sourceMappingURL=style.css.map */
