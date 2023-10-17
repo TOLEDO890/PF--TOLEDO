@@ -3,8 +3,25 @@
 @import url(./pages/contac-me.html);
 @import url(./pages/studies.html);
 @import url(./pages/projects.html);
+.border, .border--gray, .border--green, .border--white {
+  border: solid;
+  border-radius: 5px;
+}
+
+.border--white {
+  border: solid #ffffff;
+}
+
+.border--green {
+  border: solid #008000;
+}
+
+.border--gray {
+  border: solid #5A5A5A;
+}
+
 body {
-  background: linear-gradient(-45deg, black, black, gray, gray, black, black);
+  background: linear-gradient(-45deg, black, black, black, green, green, black, black, black);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
@@ -30,54 +47,37 @@ nav {
   border: solid black;
 }
 
-.texto-presentacion {
-  border-radius: 5px;
-  border: solid white;
-}
-
-.proyecto {
-  border: solid aqua;
-  border-radius: 5px;
-}
-
 ul {
   list-style-type: none;
   text-align: center;
 }
 
 .curriculum {
-  border: solid white;
-  border-radius: 5px;
   background-image: url(./assets/images/background-curriculum.jpg);
 }
 
 li {
-  color: white;
+  color: #FFFFFF;
 }
 
 h4 {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 h3 {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 h2 {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 h1 {
   text-align: center;
-  color: white;
-}
-
-.foto-amador {
-  border-radius: 10px;
-  border: solid black;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
