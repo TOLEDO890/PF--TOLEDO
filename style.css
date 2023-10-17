@@ -55,13 +55,6 @@ ul li {
   color: #FFFFFF;
 }
 
-.inicio a:hover {
-  font-size: 25px;
-}
-.inicio a:hover img:hover {
-  width: 150px;
-}
-
 a:hover {
   font-size: 25px;
 }
