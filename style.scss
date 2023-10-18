@@ -18,7 +18,7 @@ $prefix: "mo-";
 }
 
 $color-font: #FFFFFF;
-$c-b-green: #008000;
+$c-b-green: #198754;
 $c-b-white: #ffffff;
 $c-b-gray: #5A5A5A;
 
@@ -43,25 +43,7 @@ $c-b-gray: #5A5A5A;
 }
 
 body {
-	background: linear-gradient(-45deg, black, black, black, green, green, black, black, black);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height: 100vh;
-
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
-	}
-
-	100% {
-		background-position: 0% 50%;
-	}
+	background-image: url(./assets/images/background-curriculum.jpg);
 }
 
 
@@ -89,7 +71,7 @@ a:hover {
 }
 
 .curriculum {
-	background-image: url(./assets/images/background-curriculum.jpg);
+	background-color: $c-b-green;
 }
 
 
