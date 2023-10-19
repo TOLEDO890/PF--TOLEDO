@@ -1,8 +1,8 @@
-@import url(/index.html);
-@import url(./pages/about-me.html);
-@import url(./pages/contac-me.html);
-@import url(./pages/studies.html);
-@import url(./pages/projects.html);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+h1, h2, h3, h4, h5, h6, p, pre, li, a {
+  font-family: "Poppins", sans-serif;
+}
+
 .border, .border--gray, .border--green, .border--white {
   border: solid;
   border-radius: 5px;
@@ -23,14 +23,12 @@
 body {
   background-image: url(./assets/images/background-curriculum.jpg);
 }
-
-nav {
+body nav {
   border-radius: 10px;
   background-color: #ffffff;
 }
-
-.tools {
-  border: solid black;
+body nav a:hover {
+  font-size: 25px;
 }
 
 ul {
@@ -39,10 +37,6 @@ ul {
 }
 ul li {
   color: #FFFFFF;
-}
-
-a:hover {
-  font-size: 25px;
 }
 
 .curriculum {

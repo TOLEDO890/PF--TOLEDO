@@ -3,71 +3,33 @@ $primary: #900;
 $enable-shadows: true;
 $prefix: "mo-";
 
-@import url(/index.html);
-@import url(./pages/about-me.html);
-@import url(./pages/contac-me.html);
-@import url(./pages/studies.html);
-@import url(./pages/projects.html);
-
-@mixin text-center {
-	text-align: center;
-}
-
-@mixin text-withe {
-	color: $color-font;
-}
-
-$color-font: #FFFFFF;
-$c-b-green: #198754;
-$c-b-white: #ffffff;
-$c-b-gray: #5A5A5A;
-
-.border {
-	border: solid;
-	border-radius: 5px;
-}
-
-.border--white {
-	@extend .border;
-	border: solid $c-b-white;
-}
-
-.border--green {
-	@extend .border;
-	border: solid $c-b-green;
-}
-
-.border--gray {
-	@extend .border;
-	border: solid $c-b-gray;
-}
+@import "./scss/mixins";
+@import "./scss/fonts";
+@import "./scss/extends";
+@import "./scss/colors";
 
 body {
 	background-image: url(./assets/images/background-curriculum.jpg);
-}
 
+	nav {
+		border-radius: 10px;
+		background-color: #ffffff;
 
-nav {
-	border-radius: 10px;
-	background-color: #ffffff;
-}
-
-.tools {
-	border: solid black;
+		a:hover {
+			font-size: 25px;
+		}
+	}
 }
 
 ul {
 	list-style-type: none;
 	@include text-center;
+
 	li {
 		@include text-withe;
-		
-	} 
-	
-}
 
-a:hover {
-	font-size: 25px;
+	}
+
 }
 
 .curriculum {
@@ -94,6 +56,7 @@ h1 {
 	@include text-center;
 	@include text-withe;
 }
+
 p {
 	@include text-center;
 	@include text-withe;
