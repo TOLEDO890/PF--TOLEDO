@@ -13,7 +13,7 @@ Este es el README para mi página web de portfolio. En esta página, he utilizad
 
 ## Demo
 
-Puedes acceder a una demo en vivo de mi página web de portfolio [aquí](#).
+Puedes acceder a una demo en vivo de mi página web de portfolio [aquí](/index.html).
 
 ## Descripción
 
@@ -36,9 +36,9 @@ Mi página web de portfolio es una representación visual de mi trabajo y habili
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](screenshot1.png)
+![Captura de Pantalla 1](./assets/images/captura%20mobile.jpeg)
 
-![Captura de Pantalla 2](screenshot2.png)
+![Captura de Pantalla 2](./assets/images/captura%20pc.jpeg)
 
 ## Autor
 
