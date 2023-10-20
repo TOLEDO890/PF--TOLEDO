@@ -1,8 +1,9 @@
+// archivo scss principal para estilos
 // Variable overrides first
 $primary: #900;
 $enable-shadows: true;
 $prefix: "mo-";
-
+//importacion de variables,mixins,fonts,extends y colores
 @import "./scss/mixins";
 @import "./scss/fonts";
 @import "./scss/extends";
